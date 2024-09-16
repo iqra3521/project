@@ -1,0 +1,69 @@
+
+body{background-color: rgb(232, 232, 201);
+    font-size: 20px;
+}
+header{background-color: rgb(76, 128, 199);
+    background-image: url("https://image.made-in-china.com/2f0j00dKBasSzcfYUe/Custom-Made-Golden-Mountain-Landscape-Oil-Painting-on-Canvas.jpg");
+height: 400px;
+width: 1540px;
+margin: 10px;
+text-align: center;
+}
+
+p{background-color: #fac9ec;
+    padding: 2px;
+    width: 1540px;
+    margin: 10px;
+}
+nav a{display: inline-block;
+    text-decoration: none; 
+    color: white;
+    background: grey;
+    text-align: center;
+    margin-right: 130px;
+    margin-left: 130px;
+    width: 120px;
+    border: inset;
+}
+.FinalProject{display: flex;
+justify-content: space-around;
+margin: 10px 10px;
+flex-wrap: wrap;
+}
+.FinalProject img{
+width: 200px;
+height: 200px;
+margin: 10px 10px;
+border: solid 3px blue;
+padding: 2px;
+}
+.FinalProject{
+opacity:0.5 ;
+filter: alpha(opacity=50);
+} 
+
+.FinalProject:hover{transform: scale(1.1);
+    opacity: 1;
+    filter: alpha(opacity=100);
+    border-radius: solid 3px blue;
+    
+}
+.fitt-picture {display: flex;
+    justify-content: space-around;
+    margin: 10px 10px;
+    flex-wrap: wrap;
+
+}
+.fit-picture img{width: 200px;
+    height: 200px;
+    margin: 10px 10px;
+    padding: 2px;
+    
+}
+.fit-picture:nth-child(odd){border-radius: 80px;
+    border: solid 3px rgb(198, 3, 16) ;
+    padding: 3px;
+}
+.fit-picture:nth-child(even){border-radius: 10px;
+    border: solid 3px rgb(62, 6, 102) ;
+padding: 3px;}
